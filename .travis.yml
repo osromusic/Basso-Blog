@@ -13,12 +13,12 @@ script:
   - cd ./docs
   # git init, config, add, commit and push the static blog files
   # to the github pages branch
-  -git init
-  -git config user.name "osromusic"
-  -git config user.email "osromusic@gmail.com"
+  - git init
+  - git config user.name "osromusic"
+  - git config user.email "osromusic@gmail.com"
   - git add .
-  -git commit -m "update docs"
-  -git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master
+  - git commit -m "update docs"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master
   
   # after script
   # E: Build Lifecycle
