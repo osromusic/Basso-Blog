@@ -3,7 +3,7 @@ language: go
 # S: Build Lifecycle
 install:
   # Get ink command
-  - go get github.com/InkPorject/ink
+  - go get github.com/InkProject/ink
   # Run ink build to generate static blog files
   - ink build
 # before_script
